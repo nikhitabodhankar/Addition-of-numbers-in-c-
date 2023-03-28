@@ -1,0 +1,24 @@
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Addition_of_two_numbers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter two numbers");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            int sum = num1 + num2;
+            Console.WriteLine("First Number =" + num1 +
+                              "\n Second Number = " + num2 +
+                               "\n Addition = " + sum);
+            Console.ReadLine();
+
+
+
+        }
+    }
+}
